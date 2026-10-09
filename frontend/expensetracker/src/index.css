@@ -1,0 +1,49 @@
+/* Global base styles. Times New Roman is the primary font everywhere, including form controls. */
+:root {
+  --primary: #1f3a5f;
+  --primary-dark: #162a45;
+  --secondary: #5b6b7f;
+  --income: #1b7f3b;
+  --expense: #b3261e;
+  --danger: #b3261e;
+  --background: #f3f5f8;
+  --surface: #ffffff;
+  --border: #d5dbe3;
+  --text: #1c2430;
+  --muted: #667085;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 18px;
+  line-height: 1.5;
+  color: var(--text);
+  background: var(--background);
+}
+
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0 0 0.5rem;
+  line-height: 1.25;
+  color: var(--primary);
+}
+
+a {
+  color: var(--primary);
+}
